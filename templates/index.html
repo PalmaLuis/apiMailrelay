@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Suscriptores</title>
+</head>
+<body class=" bg-sky-400 flex h-screen justify-center items-center">
+    <div class="container mx-auto w-max h-max">
+        <form action="/success" method="POST" class="p-8 bg-blue-100 container mx-auto shadow-xl rounded-xl">
+            <h1 class="text-3xl font-bold pb-8">
+                Esto es una prueba del api de  Mailrelay
+            </h1>
+            <div>
+                <label for="name">Nombre:</label>
+                <br>
+                <input autocomplete="off" type="text" placeholder="Ingrese su nombre" id="name" name="name"  class="outline-cyan-500 mt-3 px-4 py-2 rounded-xl w-full">
+            </div>
+            <br>
+            <div>
+                <label for="email">Correo:</label>
+                <br>
+                <input autocomplete="off" type="email" name="email" id="email" placeholder="corre@example.com" class="outline-cyan-500 mt-3 px-4 py-2 rounded-xl w-full">
+            </div>
+            <br>
+            <input type="submit" value="Suscribirse" class="mx-auto bg-cyan-500 rounded-xl px-8 py-2 w-full hover:text-white hover:cursor-pointer hover:bg-cyan-600">
+        </form>
+
+    </div>
+</body>
+</html>
